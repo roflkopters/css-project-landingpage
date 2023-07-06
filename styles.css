@@ -1,0 +1,148 @@
+* {
+    font-family: "Roboto";
+}
+.headercontainer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+.headerlogo {
+    color: #F9FAF8;
+    font-size:24px;
+}
+.headerlinks {
+    color: #E5E7EB;
+    font-size:18px;
+    display:flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+a.headlink {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.heroquarter {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroleftcontainer {
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    height:300px;
+    justify-content: center;
+}
+.heromaintext {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.herosecondary {
+    color:#E5E7EB;
+    font-size: 18px;
+    text-align: left;
+}
+.heropicture img {
+    width:auto;
+    height: 280px;
+    border: 2px solid white;
+}
+.picturecaptioncontainer {
+    display:flex;
+    flex-direction: column;
+}
+.squarepicture img {
+    width:150px;
+    height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 25px;
+}
+.secondquarter {
+    height: 300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:20px;
+    
+}
+.secondquarterheadertext {
+    text-align: center;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.secondquarterphotoscontainer {
+    display:flex;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+}
+.thirdquarter {
+    background-color: #E5E7EB;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotecontainer {
+    width:500px;
+    display: flex;
+    flex-direction: column;
+}
+.quotetext {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style:italic;
+}
+.quoteauthor {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+}
+.fourthquarter {
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bluecontainer {
+    background-color: #3882F6;
+    border-radius: 25px;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bluetextcontainer {
+
+}
+.bluemaintext {
+    color:#F9FAF8;
+    font-weight: bolder;
+}
+.bluesubtext {
+    color:#E5E7EB;
+}
+.bluebutton {
+    width:100px;
+    height:30px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border:2px solid #E5E7EB;
+    color: #E5E7EB;
+    font-weight: bold;
+    
+}
+.footer {
+    background-color: #1F2937;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
